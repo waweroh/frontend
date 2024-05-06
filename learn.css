@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Jacquard+12+Charted&family=Poppins:wght@400;500;600;700&display=swap');
+
+* {
+  margin: 0;
+}
+html{
+  font-size: 16px;
+}
+/* h1{
+  color: aqua;
+  
+
+} */
+p{
+  font-size: 2rem;
+  font-family: "Jacquard 12 Charted", system-ui;
+}
+/* div{
+  background-color: aqua;
+  width: 50vw;
+  height: 20vh;
+} */
+
+div{
+  background-color: antiquewhite;
+  width: 100vw;
+  height: 100vh;
+  /* background-image:url("https://images.pexels.com/photos/3204950/pexels-photo-3204950.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"); */
+  background-repeat:no-repeat;
+  background-size: cover;
+  background-position: bottom;
+  background-attachment: fixed;
+  /* filter:blur(); */
+  /* filter:grayscale(70%) */
+   filter:saturate(100%)
+
+}
+
+#page{
+  background: blue;
+  /* display: inline; */
+}
+#message {
+  background: red;
+  margin: 4px;
+  padding: 10px;
+  /* display:block */
+  display: inline-block;
+  width: 200px;
+  height: 200px;
+}
+.one {
+  font-size: 4rem;
+  color: aqua;
+}
+.two{
+  font-size: 2rem ;
+  color: red;
+   
+}
+.three {
+  color: blue;
+}

@@ -1,0 +1,10 @@
+body{
+    color: rgb(132, 146, 146);
+}
+.myBtn{
+    background-color:red ;
+    color: white;
+    border: none ;
+    height: 35px;
+    width: 105px;
+}
