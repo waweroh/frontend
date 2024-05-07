@@ -12,3 +12,24 @@ body{
 .fa-brands{
   color: aqua;
 }
+#boxShadow {
+  width: 200px;
+  height: 200px;
+  background: rgb(137, 137, 238);
+  box-shadow: 10px 10px 10px rgb(221, 250, 178);
+}
+
+#textShadow {
+  width: 500px;
+  height: 500px;
+  background: rgb(0, 0, 0);
+  text-shadow:1px 1px 2px red;
+  margin: 20px;
+  font-size: 5em;
+  text-align: center;
+  color: black;
+  
+  
+
+
+}
