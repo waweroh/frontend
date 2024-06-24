@@ -18,10 +18,15 @@ body{
   /* flex-direction: column; */
   /* flex-direction: row-reverse; */
   /* flex-direction: column-reverse; */
-  /* justify content - aligns content on the main axis */
+      /* justify content - aligns content on the main axis */
   /* justify-content:center; */
-  justify-content:space-around;
-  justify-content:space-between;
+  /* justify-content:space-around; */
+  /* justify-content:space-between; */
+  /* flex-wrap: wrap-reverse; */
+  /* flex-wrap: wrap; */
+      /* align items - align items on the cross axis */
+  align-items: flex-end;    
+  align-items: center;    
 }
 .child{
   width: 50px;
