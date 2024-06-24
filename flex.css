@@ -40,6 +40,7 @@ body{
   background: blue;
   text-align: center;
   margin: 5px;
+  width: 400px;
 }
 /* Order property specifies the order of flexible items relative to the 
 other items inside the container */
