@@ -19,8 +19,8 @@
   align-items: center; */
   grid-template-areas: 
   "h h h h h"
-  "m m m m m"
-  "s s . a a"
+  "s s m m m"
+  "a a m m m "
   "f f f f f"
   ;
 
