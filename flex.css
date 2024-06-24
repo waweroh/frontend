@@ -57,5 +57,6 @@ other items inside the container */
   order:2;
   /* flex-grow: 4; */
   flex-basis: 200px;
+  flex-shrink: 2;
 
 }
