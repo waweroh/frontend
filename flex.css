@@ -29,23 +29,32 @@ body{
   /* align-items: center;     */
       /* align content - distribution of space btn and around along 
       flexbox cross axis */
-  flex-wrap: wrap;  
-  align-content: center;  
-  align-content: space-around;  
-  align-content: space-between;  
+  /* flex-wrap: wrap;   */
+  /* align-content: center;   */
+  /* align-content: space-around;   */
+  /* align-content: space-between;   */
 }
 .child{
   width: 50px;
   height: 50px;
   background: blue;
   text-align: center;
-  margin: 0px;
+  margin: 5px;
 }
 /* Order property specifies the order of flexible items relative to the 
 other items inside the container */
+
+/* align-self - alignment of the selected item inside the flex container */
+/* flex grow - specifies how item will grow relative to the rest */
+/* flex basis - property specifies the initial length of the flexible item */
 .special{
   order: 1;
+  /* align-self: flex-end; */
+  flex-grow:2 ;
 }
 .special-two{
   order:2;
+  flex-grow: 4;
+  
+
 }
