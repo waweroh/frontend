@@ -15,10 +15,11 @@ body{
   margin: 20px auto;
   /* flex box stuff - work on container */
   display: flex;
-  /* flex-direction: column; */
+  flex-direction: column;
   /* flex-direction: row-reverse; */
   /* flex-direction: column-reverse; */
   /* justify content - aligns content on the main axis */
+  justify-content:flex-end;
 }
 .child{
   width: 50px;
