@@ -50,11 +50,12 @@ other items inside the container */
 .special{
   order: 1;
   /* align-self: flex-end; */
-  flex-grow:2 ;
+  /* flex-grow:2 ; */
+  flex-basis: 20px;
 }
 .special-two{
   order:2;
-  flex-grow: 4;
-  
+  /* flex-grow: 4; */
+  flex-basis: 200px;
 
 }
